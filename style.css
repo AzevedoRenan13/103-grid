@@ -60,7 +60,23 @@ nav a:hover{
 section{
     grid-area: section;
     background-color: green;
+    align-items: center;
+    display: flex;
+    grid-area: section;
+    justify-content: center;
 }
+
+section img{
+ border: 1px;
+ width: 300px;
+ border-radius: 100%;
+
+}
+
+section:hover{
+    width: 120px;
+}
+
 
 aside{
     grid-area: aside;
