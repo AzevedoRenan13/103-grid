@@ -62,7 +62,6 @@ section{
     background-color: green;
     align-items: center;
     display: flex;
-    grid-area: section;
     justify-content: center;
 }
 
@@ -73,17 +72,36 @@ section img{
 
 }
 
-section:hover{
-    width: 120px;
-}
-
 
 aside{
     grid-area: aside;
     background-color: yellow;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    flex-direction: column;
+}
+
+aside p{
+    color: white;
+    font-family: "roboto";
+
+}
+
+aside p span{
+font-style: italic;
+color: #f67834;
 }
 
 footer{
-    grid-area: footer;
-    background-color: purple;
+    
 }
+
+footer div{
+
+}
+
+
+
