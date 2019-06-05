@@ -36,8 +36,26 @@ header div{
 
 nav{
     grid-area: nav;
-    background-color: blue;
+    background-color: #f67834;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    grid-area: nav;
+
 }
+
+nav a{
+    color: black;
+    text-decoration: none;
+text-transform: uppercase;
+font-weight: 600;
+font-family: 'Kaushan Script', cursive;
+}
+
+nav a:hover{
+    color: white;
+}
+
 
 section{
     grid-area: section;
